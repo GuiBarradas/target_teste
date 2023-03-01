@@ -1,6 +1,6 @@
 <?php
 //Lê o arquivo JSON com os dados de faturamento diário
-$faturamento_diario_json = file_get_contents('faturamento_diario.json');
+$faturamento_diario_json = file_get_contents('dados.json');
 $faturamento_diario = json_decode($faturamento_diario_json, true);
 
 //Inicializa as variáveis para o cálculo do menor, maior e s média de faturamento
